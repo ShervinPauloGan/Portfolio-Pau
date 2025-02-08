@@ -1,0 +1,91 @@
+body{
+	background-color: #111111;
+}
+.navbar-toggler-icon {
+    background-color: #your-color-code; /* Replace with your desired color code */
+    border: 1px solid #your-color-code; /* Add a border if desired */
+}
+header {
+	background: no-repeat center center;
+	background-size: cover;
+	color: white;
+	height: 130px;
+
+}
+.container1{
+	background: no-repeat center center;
+	background-size: cover;
+	color: white;
+}
+.card-title{
+	color: #dddddd;
+}
+h1{
+	color: #dddddd;
+}
+label{
+	color: #dddddd;
+}
+h2 {
+	color: #dddddd;
+}
+p{
+	color: #dddddd;
+}
+.navbar.navbar-light .navbar-nav .nav-link {
+    color: #dddddd; 
+    margin-left: 20px;
+    font-family: segoe ui;
+    font-size: 20px;
+    font-weight: 500;
+}
+	.navbar.navbar-light .navbar-nav .nav-link.active{
+	color: #ffffff; 
+    margin-left: 20px;
+    font-family: segoe ui;
+    font-size: 23px;
+    font-weight: 500;	
+	}
+.navbar.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff; 
+    margin-left: 20px;
+    font-family: segoe ui;
+    font-size: 23px;
+    font-weight: 500;
+}
+.color-overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+	min-height: 85vh;
+}
+.singleCol{
+	border-bottom: 2px solid black;
+	max-width: 850px;
+	padding: 30px;
+	background-color: #000000;
+}
+footer {
+	background-color: #000000;
+
+	color: white;
+}
+footer a:hover {
+	color: white;
+}
+@media (max-width:  750px){
+	.color-overlay{
+		min-height: 30vh;
+	}
+}
+
+.card{
+	background-color: #222222;
+	border: 2px solid #000000;
+}
+.card:hover{
+	z-index: 1;
+	width: 500px;
+	height: 500px;
+	background-color: #222222;
+	border: 2px solid #000000;
+}
+
